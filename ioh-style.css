@@ -1,71 +1,71 @@
-<! - Tabs ->
-<Ul id = "IOH-tabs" style = "display: block;" class = "window-tabs">
-    <Li class = "ui-ib IOH ativo" id = "tab-general"> <a soundoverwrite="true" href="#">
-        <Div> </ div>
-        </a> Geral </ li>
-    <Li class = "ui-ib IOH" id = "tab-horários"> <a soundoverwrite="true" href="#">
-        <Div> </ div>
-        Horários </a> </ li>
-</ Ul>
-<! - EOF Tabs ->
+<!-- Tabs -->
+<ul id="ioh-tabs" style="display: block;" class="window-tabs" >
+    <li class="ui-ib ioh active" id="tab-general"><a soundoverwrite="true" href="#">
+        <div></div>
+        General</a></li>
+    <li class="ui-ib ioh" id="tab-schedules"><a soundoverwrite="true" href="#">
+        <div></div>
+        Schedules</a></li>
+</ul>
+<!-- EOF Tabs -->
 
-<! - O conteúdo Janela principal ->
-<Div id = "-content IOH" class = "tabs-conteúdo claro">
-    <Span class = "-window-decor left"> </ span>
-    <Span class = "window-decor-right"> </ span>
+<!-- Main Window Content -->
+<div id="ioh-content" class="tabs-content clear">
+    <span class="window-decor-left"></span>
+    <span class="window-decor-right"></span>
 
-    <Div class = "janela de tamanho de toda a janela">
+    <div class="window-size window-wide">
 
-        <! - Guia Geral ->
-        <Div id = "-content tab-geral" class = "content">
+        <!-- General Tab -->
+        <div id="tab-general-content" class="content">
 
-            <Div class = "IOH-welcome-wrapper">
-<Pre>. .
-        .n. . n.
-  . .dP dP 9b 9b. .
- 4 qXb. dX XB. DXP t
-dX. 9Xb .dXb __ __ DXB. DXP .Xb
-9XXb._ _.dXXXXb dXXXXbo. .odXXXXb dXXXXb._ _.dXXP
- 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo. .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
-  `9XXXXXXXXXXXXXXXXXXXXX '~ ~` OOO8b d8OOO' ~ ~ `XXXXXXXXXXXXXXXXXXXXXP '
-    `9XXXXXXXXXXXP '` 9XX' `98v8P '` XXP' `9XXXXXXXXXXXP '
-        ~~~~~~~ 9X. db | db. .XP ~~~~~~~
-                        ) B. .dbo.dP'`v'`9b.odb. .dX (
-                      , DXXXXXXXXXXXb dXXXXXXXXXXXb.
-                     dXXXXXXXXXXXP '. `9XXXXXXXXXXXb
-                    dXXXXXXXXXXXXb d | b dXXXXXXXXXXXXb
-                    9XXb ' `XXXXXb.dX | Xb.dXXXXX'` dXXP
-                     ` '9XXXXXX () XXXXXXP`'
-                              XXXX XXXX X.`v'.X
-                              XP ^ X'`b d' `X ^ XX
-                              X. P 9 ` ') X
-                              `` B 'd'
-                               ` '
-</ Pre>
-            </ Div>
+            <div class="ioh-welcome-wrapper">
+<pre>          .                                                      .
+        .n                   .                 .                  n.
+  .   .dP                  dP                   9b                 9b.    .
+ 4    qXb         .       dX                     Xb       .        dXp     t
+dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
+9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
+ 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
+  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
+    `9XXXXXXXXXXXP' `9XX'          `98v8P'          `XXP' `9XXXXXXXXXXXP'
+        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
+                        )b.  .dbo.dP'`v'`9b.odb.  .dX(
+                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
+                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
+                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
+                    9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
+                     `'      9XXXXXX(   )XXXXXXP      `'
+                              XXXX X.`v'.X XXXX
+                              XP^X'`b   d'`X^XX
+                              X. 9  `   '  P )X
+                              `b  `       '  d'
+                               `             '
+</pre>
+            </div>
 
-          
-        </ Div>
-        <! - Guia Geral EOF ->
 
-        <! - Guia Geral ->
-        <Div id = "tab-horários-content" class = "content" style = "display: none;">
+        </div>
+        <!-- EOF General Tab -->
 
-            
-        </ Div>
-        <! - Guia Geral EOF ->
+        <!-- General Tab -->
+        <div id="tab-schedules-content" class="content" style="display: none;">
 
-        <! - Janela de Conteúdo Rodapé ->
-        <Div class = "window-footer">
-            <Div class = "window-footer-top"> </ div>
-            <Div class = "window-footer-content">
-                <Div> </ div>
-            </ Div>
-        </ Div>
-        <! - EOF rodapé conteúdo Janela ->
-    </ Div>
-</ Div>
-<! - EOF conteúdo da janela principal ->
+
+        </div>
+        <!-- EOF General Tab -->
+
+        <!-- Footer Window Content -->
+        <div class="window-footer">
+            <div class="window-footer-top"></div>
+            <div class="window-footer-content">
+                <div></div>
+            </div>
+        </div>
+        <!-- EOF Footer Window Content -->
+    </div>
+</div>
+<!-- EOF Main Window Content -->
 /*
     <editor-fold desc=" Tab Styles ">
 */
